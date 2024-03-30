@@ -1,0 +1,34 @@
+/Users/push-technologies/.vscode/extensions/ruakr.ftp-kr-1.4.5
+
+[ftp-kr Reporting]
+platform: darwin
+arch: x64
+
+[Error]
+message: Need workspace
+
+[Stack Trace]
+Error: Need workspace
+    at /Users/push-technologies/.vscode/extensions/ruakr.ftp-kr-1.4.5/src/vsutil/vsutil.ts:98:12
+    at new Promise (<anonymous>)
+    at Object.createWorkspace (/Users/push-technologies/.vscode/extensions/ruakr.ftp-kr-1.4.5/src/vsutil/vsutil.ts:95:10)
+    at Object.ftpkr.init (/Users/push-technologies/.vscode/extensions/ruakr.ftp-kr-1.4.5/src/cmd/config.ts:9:33)
+    at runCommand (/Users/push-technologies/.vscode/extensions/ruakr.ftp-kr-1.4.5/src/vsutil/cmd.ts:74:23)
+    at /Users/push-technologies/.vscode/extensions/ruakr.ftp-kr-1.4.5/src/vsutil/cmd.ts:85:6
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+    at s.$executeContributedCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:176103)
+    at d.S (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5520)
+    at d.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5286)
+    at d.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:4376)
+    at d.L (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3455)
+    at g.value (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2242)
+    at r.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at r.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at n.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+    at g.value (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:8051)
+    at r.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at r.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at n.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6331)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
